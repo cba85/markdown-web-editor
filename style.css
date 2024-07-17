@@ -1,0 +1,150 @@
+/* Tags */
+
+body {
+    margin: 0 auto;
+    padding: 1em;
+    font-family: monospace;
+    font-size: 1em;
+    word-wrap: break-word;
+    max-width: 974px;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+pre {
+    background-color: #eee;
+    padding: 0.25em;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+footer {
+    margin-top: 1em;
+}
+
+textarea {
+    border: 1px solid #444c56;
+}
+
+nav {
+    border-bottom: 1px dotted;
+    padding-bottom: 0.5em;
+}
+
+main {
+    padding: 0 1em;
+    margin-left: 1em;
+    border-left: 1px solid #eee;
+}
+
+table {
+    border-spacing:0;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+th {
+    text-align: left;
+    background-color: #eee;
+}
+
+th, td {
+    border-bottom: 1px solid #eee;
+    padding: 0.15em;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+/* Web editor */
+
+#viewer {
+    font-size: 1.1em;
+    font-family: system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.edit {
+    margin: 1em 0;
+}
+
+#save, #cancel {
+    display: none;
+}
+
+#save {
+    font-weight: bold;
+}
+
+.notification {
+    display: none;
+    font-style: italic;
+    color: green;
+    font-size: smaller;
+}
+
+#editor-container {
+    display: none;
+}
+
+#editor {
+    width: 99%;
+    resize: vertical;
+    height: 42em;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #c5d1de;
+        background-color: #22272e;
+    }
+
+    a, a:visited {
+        color: #478be6;
+    }
+
+    pre {
+        background-color: #2d333b;
+    }
+
+    th {
+        background-color: #2d333b;
+    }
+
+    th, td {
+        border-bottom: 1px solid #444c56;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #444c56;
+  }
+
+  button {
+    color: #adbac7;
+    background-color: #373e47;
+    border: 1px solid #444c56;
+}
+
+textarea {
+    color: #c5d1de;
+    background-color: #22272e;
+    border: 1px solid #444c56;
+}
+
+nav {
+    border-bottom: 1px dotted #444c56;
+}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Web Editor</title>
+    <meta name="description" content="Markdown Web Editor example">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="markdown-it.min.js" defer></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <h1>Markdown Web Editor</h1>
+
+    <p class="error"></p>
+
+    <div class="edit">
+        <button id="edit">Edit</button>
+        <button id="save">Save</button>
+        <button id="cancel">Cancel</button>
+        <span class="notification">Saved!</span>
+    </div>
+
+    <div id="viewer"></div>
+
+    <div id="editor-container">
+        <textarea id="editor"></textarea>
+    </div>
+</body>
+</html>
